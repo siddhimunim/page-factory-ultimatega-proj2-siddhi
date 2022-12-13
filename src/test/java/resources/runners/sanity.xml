@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sanity suite" verbose="1">
+    <groups>
+        <run>
+            <include name="sanity">
+            </include>
+
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="com.ultimatega.courses.customlistner.CustomListners"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+
+    <test name="sanity">
+        <classes>
+            <class name="com.ultimatega.courses.testsuite.SignInTest"/>
+        </classes>
+    </test>
+</suite>

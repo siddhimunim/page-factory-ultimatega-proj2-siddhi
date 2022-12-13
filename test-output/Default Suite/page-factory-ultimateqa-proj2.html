@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>TestNG:  page-factory-ultimateqa-proj2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>page-factory-ultimateqa-proj2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 11 13:53:30 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15811 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ultimatega.courses.testsuite.SignInTest.userShouldNavigateToLoginPageSuccessfully()'><b>userShouldNavigateToLoginPageSuccessfully</b><br>Test class: com.ultimatega.courses.testsuite.SignInTest<br/>
+<a href="#Output-681639276" onClick='toggleBox("Output-681639276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-681639276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-681639276">
+verify welcomeback text[[ChromeDriver: chrome on WINDOWS (463db4e9dad9da87c0e6770c6fbdc4a5)] -> xpath: //h2[contains(text(),'Welcome Back!')]]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.ultimatega.courses.testsuite.SignInTest@536aaa8d</td></tr>
+<tr>
+<td title='com.ultimatega.courses.testsuite.SignInTest.verifyTheErrorMessage()'><b>verifyTheErrorMessage</b><br>Test class: com.ultimatega.courses.testsuite.SignInTest<br/>
+<a href="#Output-380616082" onClick='toggleBox("Output-380616082", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-380616082" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-380616082">
+Enter emailabcd@gamil.comto emailField [[ChromeDriver: chrome on WINDOWS (876209684a4ebca3c6f35b0d2de2772e)] -> id: user[email]]<br/>
+Enter passwordabcd1234to password [[ChromeDriver: chrome on WINDOWS (876209684a4ebca3c6f35b0d2de2772e)] -> id: user[password]]<br/>
+click on signIn[[ChromeDriver: chrome on WINDOWS (876209684a4ebca3c6f35b0d2de2772e)] -> xpath: //button[contains(text(),'Sign in')]]<br/>
+verify invaildfield text[[ChromeDriver: chrome on WINDOWS (876209684a4ebca3c6f35b0d2de2772e)] -> xpath: //li[contains(text(),'Invalid email or password.')]]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.ultimatega.courses.testsuite.SignInTest@536aaa8d</td></tr>
+</table><p>
+</body>
+</html>

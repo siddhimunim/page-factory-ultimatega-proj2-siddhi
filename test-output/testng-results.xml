@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[click on Sign in [[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> xpath: //li[@class='header__nav-item header__nav-sign-in']/a]]]>
+    </line>
+    <line>
+      <![CDATA[Enter emailabcd@gamil.comto emailField [[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> id: user[email]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter passwordabcd1234to password [[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> id: user[password]]]]>
+    </line>
+    <line>
+      <![CDATA[click on signIn[[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> xpath: //button[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[verify invaildfield text[[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> xpath: //li[contains(text(),'Invalid email or password.')]]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\hvtha\page-factory-ultimateqa-proj2/test-output/html/verifyTheErrorMessageSun_Dec_11_17_13_12_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\hvtha\page-factory-ultimateqa-proj2/test-output/html/verifyTheErrorMessageSun_Dec_11_17_13_12_GMT_2022.jpg><img src=C:\Users\hvtha\page-factory-ultimateqa-proj2/test-output/html/verifyTheErrorMessageSun_Dec_11_17_13_12_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="smokeSuite" duration-ms="12615" started-at="2022-12-11T17:13:00 GMT" finished-at="2022-12-11T17:13:12 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="SignInTest.verifyTheErrorMessage()[pri:0, instance:com.ultimatega.courses.testsuite.SignInTest@4232c52b]" name="verifyTheErrorMessage" class="com.ultimatega.courses.testsuite.SignInTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="SignInTest.verifyTheErrorMessage()[pri:0, instance:com.ultimatega.courses.testsuite.SignInTest@4232c52b]" name="verifyTheErrorMessage" class="com.ultimatega.courses.testsuite.SignInTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="smoke Test" duration-ms="12615" started-at="2022-12-11T17:13:00 GMT" finished-at="2022-12-11T17:13:12 GMT">
+      <class name="com.ultimatega.courses.testsuite.SignInTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimatega.courses.testsuite.SignInTest@4232c52b]" name="setUp" is-config="true" duration-ms="5609" started-at="2022-12-11T17:13:00 GMT" finished-at="2022-12-11T17:13:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.ultimatega.courses.testsuite.SignInTest@4232c52b]" name="inIt" is-config="true" duration-ms="41" started-at="2022-12-11T17:13:06 GMT" finished-at="2022-12-11T17:13:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheErrorMessage()[pri:0, instance:com.ultimatega.courses.testsuite.SignInTest@4232c52b]" name="verifyTheErrorMessage" duration-ms="5289" started-at="2022-12-11T17:13:06 GMT" finished-at="2022-12-11T17:13:11 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[click on Sign in [[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> xpath: //li[@class='header__nav-item header__nav-sign-in']/a]]]>
+            </line>
+            <line>
+              <![CDATA[Enter emailabcd@gamil.comto emailField [[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> id: user[email]]]]>
+            </line>
+            <line>
+              <![CDATA[Enter passwordabcd1234to password [[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> id: user[password]]]]>
+            </line>
+            <line>
+              <![CDATA[click on signIn[[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> xpath: //button[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[verify invaildfield text[[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> xpath: //li[contains(text(),'Invalid email or password.')]]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\hvtha\page-factory-ultimateqa-proj2/test-output/html/verifyTheErrorMessageSun_Dec_11_17_13_12_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\hvtha\page-factory-ultimateqa-proj2/test-output/html/verifyTheErrorMessageSun_Dec_11_17_13_12_GMT_2022.jpg><img src=C:\Users\hvtha\page-factory-ultimateqa-proj2/test-output/html/verifyTheErrorMessageSun_Dec_11_17_13_12_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimatega.courses.testsuite.SignInTest@4232c52b]" name="tearDown" is-config="true" duration-ms="915" started-at="2022-12-11T17:13:12 GMT" finished-at="2022-12-11T17:13:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ultimatega.courses.testsuite.SignInTest -->
+    </test> <!-- smoke Test -->
+  </suite> <!-- smokeSuite -->
+</testng-results>

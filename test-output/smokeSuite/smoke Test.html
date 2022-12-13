@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>TestNG:  smoke Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>smoke Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 11 17:13:00 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12615 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ultimatega.courses.testsuite.SignInTest.verifyTheErrorMessage()'><b>verifyTheErrorMessage</b><br>Test class: com.ultimatega.courses.testsuite.SignInTest<br/>
+<a href="#Output-1005093407" onClick='toggleBox("Output-1005093407", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1005093407" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1005093407">
+click on Sign in [[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> xpath: //li[@class='header__nav-item header__nav-sign-in']/a]<br/>
+Enter emailabcd@gamil.comto emailField [[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> id: user[email]]<br/>
+Enter passwordabcd1234to password [[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> id: user[password]]<br/>
+click on signIn[[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> xpath: //button[contains(text(),'Sign in')]]<br/>
+verify invaildfield text[[ChromeDriver: chrome on WINDOWS (16face703fb6e4f14f7e0d2a3a48829e)] -> xpath: //li[contains(text(),'Invalid email or password.')]]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\hvtha\page-factory-ultimateqa-proj2/test-output/html/verifyTheErrorMessageSun_Dec_11_17_13_12_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\hvtha\page-factory-ultimateqa-proj2/test-output/html/verifyTheErrorMessageSun_Dec_11_17_13_12_GMT_2022.jpg><img src=C:\Users\hvtha\page-factory-ultimateqa-proj2/test-output/html/verifyTheErrorMessageSun_Dec_11_17_13_12_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.ultimatega.courses.testsuite.SignInTest@4232c52b</td></tr>
+</table><p>
+</body>
+</html>
